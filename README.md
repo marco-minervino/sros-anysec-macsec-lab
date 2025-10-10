@@ -184,6 +184,7 @@ The following stack of software solutions has been chosen for this lab:
 | Time-Series DB      | [prometheus](https://prometheus.io)   | 9090  | <http://localhost:9090/graph> |             |
 | Visualization       | [grafana](https://grafana.com)        | 3000  | <http://localhost:3000>       | admin/admin |
 | Automation          | Go/Svelte                             | 54173 | <http://localhost:54173/>     |             |
+| Automation for WSL  | Go/Svelte                             | 4173 | <http://localhost:4173/>     |             |
 | EdgeShark           | [EdgeShark](https://edgeshark.siemens.io/#/)| 5001 | <http://localhost:5001/>     |             |
 
 ### Access details
@@ -193,7 +194,7 @@ If you are accessing from a remote host, then replace localhost by the CLAB Serv
 * Grafana: <http://<Server-IP>:3000>. Built-in user credentials: `admin/admin`
 * Prometheus: <http://<Server-IP>:9090/graph>
 * Automation Panel: <http://<Server-IP>:54173/>
-* Go/Svelte: http://<Server-IP>:54173
+* Automation Panel for WSL: <http://<Server-IP>:4173/>
 * EdgeShark: http://<Server-IP>:5001/
 
 ## Verify the setup
